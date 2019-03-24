@@ -16,7 +16,7 @@ Enter `localhost:3000` in your browser to join the chat.
 
 Visit `localhost:4000` in your browser to view graphiql.
 
-note: if you get an npm "unexpected token import", please make sure you have a `.babelrc` file with presets for ES2015.
+note: if you get an npm "unexpected token" error, please make sure you have a `.babelrc` file with presets for ES2015. npm doesn't support ES6 by default, so we use babel.
 
 ## Chat app details
 
