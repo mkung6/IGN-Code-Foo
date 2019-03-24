@@ -16,6 +16,8 @@ Enter `localhost:3000` in your browser to join the chat.
 
 Visit `localhost:4000` in your browser to view graphiql.
 
+note: if you get an npm "unexpected token import", please make sure you have a `.babelrc` file with presets for ES2015.
+
 ## Chat app details
 
 For my chat application, I wanted to create something relatively simple and lightweight. So for my stack I chose to use React with GraphQL, and SQLite so that we don't have to download and run any database server.
